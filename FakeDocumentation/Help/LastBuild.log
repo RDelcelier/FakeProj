@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder and Tools" version="2018.7.8.0" projectFile="C:\Workspace\FakeProject\FakeDocumentation\FakeDocumentation.shfbproj" started="10/5/2018 10:14:23 AM">
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2018.7.8.0" projectFile="C:\Workspace\FakeProject\FakeDocumentation\FakeDocumentation.shfbproj" started="10/12/2018 11:40:30 AM">
 <buildStep step="Initializing">
 Finding tools...
 The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
@@ -13,6 +13,9 @@ Loading and initializing plug-ins...
 Lightweight Website Style Version 2018.7.8.0
 Copyright &#169; 2006-2018, Eric Woodruff, All Rights Reserved
 Portions Copyright &#169; 2014, Sam Harwell, All Rights Reserved
+</buildStep>
+<buildStep step="ClearWorkFolder">
+Clearing working folder...
 -------------------------------
 Clearing any prior web/markdown output...
 </buildStep>
@@ -28,7 +31,7 @@ Copying XML comments files
 <buildStep step="GenerateSharedContent">
 Generating shared content files (fr-FR, French (France))...
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
-</plugIn>    Last step completed in 00:00:00.0156
+</plugIn>    Last step completed in 00:00:00.0000
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
@@ -37,7 +40,7 @@ Generating API filter for MRefBuilder...
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
 [C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\MSBuild.exe - GenerateRefInfo.proj]
-Build started 10/5/2018 10:14:26 AM.
+Build started 10/12/2018 11:40:33 AM.
 Project &quot;C:\Workspace\FakeProject\FakeDocumentation\Working\GenerateRefInfo.proj&quot; on node 1 (default targets).
 PrepareForBuild:
   Creating directory &quot;obj\Debug\&quot;.
@@ -58,13 +61,13 @@ Done Building Project &quot;C:\Workspace\FakeProject\FakeDocumentation\Working\G
 
 Build succeeded.
 
-Time Elapsed 00:00:01.85
-    Last step completed in 00:00:02.3906
+Time Elapsed 00:00:01.17
+    Last step completed in 00:00:01.4219
 </buildStep>
 <buildStep step="TransformReflectionInfo">
 Transforming reflection output...
 [C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\MSBuild.exe - TransformManifest.proj]
-Build started 10/5/2018 10:14:28 AM.
+Build started 10/12/2018 11:40:34 AM.
 Project &quot;C:\Workspace\FakeProject\FakeDocumentation\Working\TransformManifest.proj&quot; on node 1 (default targets).
 TransformManifest:
   XslTransform (v2018.7.8.0)
@@ -84,12 +87,12 @@ Done Building Project &quot;C:\Workspace\FakeProject\FakeDocumentation\Working\T
 
 Build succeeded.
 
-Time Elapsed 00:00:00.87
-    Last step completed in 00:00:01.2969
+Time Elapsed 00:00:00.62
+    Last step completed in 00:00:00.8594
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00.0000
+    Last step completed in 00:00:00.0156
 </buildStep>
 <buildStep step="CopyConceptualContent">
 Copying conceptual content...
@@ -104,7 +107,7 @@ Generating conceptual topic files
     C:\Workspace\FakeProject\FakeDocumentation\Content\VersionHistory\VersionHistory.aml -&gt; C:\Workspace\FakeProject\FakeDocumentation\Working\ddueXml\ac973796-8feb-4a49-ba80-3f4fd48a92ab.xml
     Parsing topic file &#39;C:\Workspace\FakeProject\FakeDocumentation\Content\VersionHistory\v1.0.0.0.aml&#39;
     C:\Workspace\FakeProject\FakeDocumentation\Content\VersionHistory\v1.0.0.0.aml -&gt; C:\Workspace\FakeProject\FakeDocumentation\Working\ddueXml\07572ded-23be-4e3a-b0fa-74546b4f1f90.xml
-    Last step completed in 00:00:00.0312
+    Last step completed in 00:00:00.0469
 </buildStep>
 <buildStep step="CreateConceptualTopicConfigs">
 Creating conceptual topic configuration files...
@@ -125,7 +128,7 @@ Merging conceptual and additional tables of contents...
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file...
 [C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\MSBuild.exe - GenerateIntermediateTOC.proj]
-Build started 10/5/2018 10:14:30 AM.
+Build started 10/12/2018 11:40:35 AM.
 Project &quot;C:\Workspace\FakeProject\FakeDocumentation\Working\GenerateIntermediateTOC.proj&quot; on node 1 (default targets).
 GenerateIntermediateTOC:
   XslTransform (v2018.7.8.0)
@@ -136,14 +139,14 @@ Done Building Project &quot;C:\Workspace\FakeProject\FakeDocumentation\Working\G
 
 Build succeeded.
 
-Time Elapsed 00:00:00.48
+Time Elapsed 00:00:00.15
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:00.8906
+    Last step completed in 00:00:00.3437
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
     sandcastle.config
-    Last step completed in 00:00:00.1406
+    Last step completed in 00:00:00.1719
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
@@ -151,12 +154,12 @@ C:\Workspace\FakeProject\FakeDocumentation\Working\sandcastle.config
   Updating reference topic configurations.
   Updating conceptual topic configurations.
     Removing unused ExampleComponent.
-    Last step completed in 00:00:00.0000
+    Last step completed in 00:00:00.0156
 </buildStep>
 <buildStep step="BuildTopics">
 Building help topics...
 [C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\MSBuild.exe - BuildTopics.proj]
-Build started 10/5/2018 10:14:31 AM.
+Build started 10/12/2018 11:40:35 AM.
 Project &quot;C:\Workspace\FakeProject\FakeDocumentation\Working\BuildTopics.proj&quot; on node 1 (default targets).
 BuildTopics:
   BuildAssembler (v2018.7.8.0)
@@ -167,15 +170,14 @@ BuildTopics:
   Processed 10 topic(s)
   CopyFromIndexComponent: &quot;metadata&quot; in-memory cache entries used: 1 of 15.
   ResolveArtLinksComponent: Copying media files...
-  ResolveReferenceLinksComponent: 1 entries added to the MSDN content ID cache.  New cache size: 10 entries
   CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 3 of 15.
   CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 3 of 30.
 Done Building Project &quot;C:\Workspace\FakeProject\FakeDocumentation\Working\BuildTopics.proj&quot; (default targets).
 
 Build succeeded.
 
-Time Elapsed 00:00:07.64
-    Last step completed in 00:00:08.0821
+Time Elapsed 00:00:13.02
+    Last step completed in 00:00:13.3038
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
@@ -195,7 +197,7 @@ Processed 10 HTML files
 Sorting keywords and generating See Also indices
 Saving website keyword index to C:\Workspace\FakeProject\FakeDocumentation\Working\WebKI.xml
 Saving website table of contents to C:\Workspace\FakeProject\FakeDocumentation\Working\WebTOC.xml
-    Last step completed in 00:00:01.1875
+    Last step completed in 00:00:00.4356
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
@@ -277,32 +279,32 @@ C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyle
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\branding-Website.js -&gt; C:\Workspace\FakeProject\FakeDocumentation\Working\Output\Website\scripts\branding-Website.js
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\clipboard.min.js -&gt; C:\Workspace\FakeProject\FakeDocumentation\Working\Output\Website\scripts\clipboard.min.js
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\jquery-1.11.0.min.js -&gt; C:\Workspace\FakeProject\FakeDocumentation\Working\Output\Website\scripts\jquery-1.11.0.min.js
-    Last step completed in 00:00:00.7031
+    Last step completed in 00:00:02.0782
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating website table of contents file...
-    Last step completed in 00:00:00.0000
+    Last step completed in 00:00:00.0156
 </buildStep>
 <buildStep step="GenerateFullTextIndex">
 Generating full-text index for the website...
 
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
 Adding lightweight search and TOC elements to each topic...
-</plugIn>    Last step completed in 00:00:00.0625
+</plugIn>    Last step completed in 00:00:00.1408
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
 
 Copied 118 files for the website content
-    Last step completed in 00:00:00.6563
+    Last step completed in 00:00:00.5628
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:00.0625
+    Last step completed in 00:00:00.0776
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 10/5/2018 10:14:41 AM.  Total time: 00:00:17.9415
+Build completed successfully at 10/12/2018 11:40:52 AM.  Total time: 00:00:21.9894
 
 </buildStep>
 </shfbBuild>

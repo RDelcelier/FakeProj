@@ -2,13 +2,13 @@
 <HelpTOC>
 
   <HelpTOCNode Title="Welcome to the [TODO: Add project name]" Url="html/55759d62-729f-469e-aab7-2a86b2afa9c5.htm" />
-  <HelpTOCNode Id="d81b7709-d3b3-48a8-9fde-da8a2d55201d" Title="Version History" Url="html/ac973796-8feb-4a49-ba80-3f4fd48a92ab.htm">
+  <HelpTOCNode Id="b70d5898-67bf-4b22-8fa2-72275452947e" Title="Version History" Url="html/ac973796-8feb-4a49-ba80-3f4fd48a92ab.htm">
     <HelpTOCNode Title="Version 1.0.0.0" Url="html/07572ded-23be-4e3a-b0fa-74546b4f1f90.htm" />
   </HelpTOCNode>
-  <HelpTOCNode Id="64d01e0d-a8b2-4c50-a861-3fc937859c6b" Title="FakeProject" Url="html/N_FakeProject.htm">
-    <HelpTOCNode Id="3be3771a-6db0-44f5-ab18-708ca32ea5b5" Title="FakeClass Classe" Url="html/T_FakeProject_FakeClass.htm">
+  <HelpTOCNode Id="dfe1695c-384a-491d-add8-3e8dd009bef5" Title="FakeProject" Url="html/N_FakeProject.htm">
+    <HelpTOCNode Id="2f04cf54-8e83-46bc-a211-4a414ff5ef10" Title="FakeClass Classe" Url="html/T_FakeProject_FakeClass.htm">
       <HelpTOCNode Title="FakeClass Constructeur " Url="html/M_FakeProject_FakeClass__ctor.htm" />
-      <HelpTOCNode Id="d8231c1e-f24a-438e-8a84-b3e46e791649" Title="FakeClass M&#233;thodes" Url="html/Methods_T_FakeProject_FakeClass.htm">
+      <HelpTOCNode Id="6c66db90-16a2-4105-9802-d5ab4dd5f573" Title="FakeClass M&#233;thodes" Url="html/Methods_T_FakeProject_FakeClass.htm">
         <HelpTOCNode Title="GetFakeListBovinNameByCheptel M&#233;thode " Url="html/M_FakeProject_FakeClass_GetFakeListBovinNameByCheptel.htm" />
         <HelpTOCNode Title="GetFakeListObject M&#233;thode " Url="html/M_FakeProject_FakeClass_GetFakeListObject.htm" />
         <HelpTOCNode Title="GetFakeObject M&#233;thode " Url="html/M_FakeProject_FakeClass_GetFakeObject.htm" />
