@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+  <HelpKINode Title="FakeClass classe">
+    <HelpKINode Title="FakeClass Classe" Url="html/T_FakeProject_FakeClass.htm" />
+    <HelpKINode Title="constructeur" Url="html/M_FakeProject_FakeClass__ctor.htm" />
+    <HelpKINode Title="m&#233;thodes" Url="html/Methods_T_FakeProject_FakeClass.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FakeClass.FakeClass constructeur" Url="html/M_FakeProject_FakeClass__ctor.htm" />
+  <HelpKINode Title="FakeClass.GetFakeListBovinNameByCheptel m&#233;thode" Url="html/M_FakeProject_FakeClass_GetFakeListBovinNameByCheptel.htm" />
+  <HelpKINode Title="FakeClass.GetFakeListObject m&#233;thode" Url="html/M_FakeProject_FakeClass_GetFakeListObject.htm" />
+  <HelpKINode Title="FakeClass.GetFakeObject m&#233;thode" Url="html/M_FakeProject_FakeClass_GetFakeObject.htm" />
+  <HelpKINode Title="FakeProject espace de nom" Url="html/N_FakeProject.htm" />
+  <HelpKINode Title="FakeProject.FakeClass classe" Url="html/T_FakeProject_FakeClass.htm" />
+  <HelpKINode Title="GetFakeListBovinNameByCheptel m&#233;thode" Url="html/M_FakeProject_FakeClass_GetFakeListBovinNameByCheptel.htm" />
+  <HelpKINode Title="GetFakeListObject m&#233;thode" Url="html/M_FakeProject_FakeClass_GetFakeListObject.htm" />
+  <HelpKINode Title="GetFakeObject m&#233;thode" Url="html/M_FakeProject_FakeClass_GetFakeObject.htm" />
+  <HelpKINode Title="version">
+    <HelpKINode Title="1.0.0.0" Url="html/07572ded-23be-4e3a-b0fa-74546b4f1f90.htm" />
+    <HelpKINode Title="history" Url="html/ac973796-8feb-4a49-ba80-3f4fd48a92ab.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Welcome" Url="html/55759d62-729f-469e-aab7-2a86b2afa9c5.htm" />
+</HelpKI>

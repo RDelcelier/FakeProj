@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FakeProject</name>
+    </assembly>
+    <members>
+        <member name="T:FakeProject.FakeClass">
+            <summary>
+            My fake class
+            </summary>
+        </member>
+        <member name="M:FakeProject.FakeClass.GetFakeObject">
+            <summary>
+            Gets the fake object.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FakeProject.FakeClass.GetFakeListObject">
+            <summary>
+            Gets the fake list object.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FakeProject.FakeClass.GetFakeListBovinNameByCheptel(System.String,System.String)">
+            <summary>
+            Gets the fake list bovin name by cheptel.
+            </summary>
+            <param name="copaipCheptel">The copaip cheptel.</param>
+            <param name="numeroCheptel">The numero cheptel.</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
