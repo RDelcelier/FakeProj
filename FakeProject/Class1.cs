@@ -9,14 +9,6 @@ namespace FakeProject
     public class FakeClass
     {
         /// <summary>
-        /// Sets the fake object.
-        /// </summary>
-        /// <param name="value">The value.</param>
-        public void SetFakeObject(object value)
-        {
-
-        }
-        /// <summary>
         /// Gets the fake object.
         /// </summary>
         /// <returns></returns>
