@@ -15,8 +15,7 @@ namespace FakeProject
         public object GetFakeObject()
         {
             object fakeObject = "Fake Value";
-            return fakeObject; 
-        
+            return fakeObject;
 
         /// <summary>
         /// Gets the fake list object.

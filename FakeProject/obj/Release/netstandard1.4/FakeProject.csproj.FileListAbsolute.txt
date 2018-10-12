@@ -1,0 +1,7 @@
+C:\Workspace\FakeProject\FakeProject\bin\Release\netstandard1.4\FakeProject.deps.json
+C:\Workspace\FakeProject\FakeProject\bin\Release\netstandard1.4\FakeProject.dll
+C:\Workspace\FakeProject\FakeProject\bin\Release\netstandard1.4\FakeProject.pdb
+C:\Workspace\FakeProject\FakeProject\obj\Release\netstandard1.4\FakeProject.csprojResolveAssemblyReference.cache
+C:\Workspace\FakeProject\FakeProject\obj\Release\netstandard1.4\FakeProject.AssemblyInfo.cs
+C:\Workspace\FakeProject\FakeProject\obj\Release\netstandard1.4\FakeProject.dll
+C:\Workspace\FakeProject\FakeProject\obj\Release\netstandard1.4\FakeProject.pdb
